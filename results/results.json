@@ -1,0 +1,150 @@
+{
+  "input": {
+    "raw_nodes": 1380,
+    "raw_edges": 1476,
+    "projection_rule": "larger",
+    "projected_from_bipartite": true,
+    "bipartite_sides": [
+      551,
+      829
+    ]
+  },
+  "graph": {
+    "nodes": 829,
+    "edges": 2253,
+    "density": 0.0065645705494659186,
+    "avg_degree": 5.435464414957781,
+    "connected_components": 20,
+    "giant_component_nodes": 754,
+    "giant_component_share": 0.9095295536791315,
+    "avg_clustering": 0.719077529468999,
+    "triangles_total": 4312,
+    "transitivity": 0.5823092505064146,
+    "giant_diameter": 16,
+    "giant_avg_path_length": 6.817592582807585
+  },
+  "timings": {
+    "pagerank_s": 0.15967392921447754,
+    "betweenness_s": 1.3043851852416992
+  },
+  "max_core_number": 17,
+  "nodes_in_max_core": 18,
+  "top10_pagerank": [
+    [
+      "1",
+      0.008658892760224123
+    ],
+    [
+      "814",
+      0.00800554294197744
+    ],
+    [
+      "355",
+      0.007040420769336388
+    ],
+    [
+      "424",
+      0.00626493248889992
+    ],
+    [
+      "403",
+      0.005787670778068169
+    ],
+    [
+      "55",
+      0.005520016560370136
+    ],
+    [
+      "145",
+      0.0050764922326667905
+    ],
+    [
+      "9",
+      0.004589906427320879
+    ],
+    [
+      "735",
+      0.004457543772059755
+    ],
+    [
+      "548",
+      0.004386274817979758
+    ]
+  ],
+  "top10_betweenness": [
+    [
+      "814",
+      0.3496328193760626
+    ],
+    [
+      "689",
+      0.2505428176118133
+    ],
+    [
+      "1",
+      0.18689763485328503
+    ],
+    [
+      "55",
+      0.1569477483567497
+    ],
+    [
+      "714",
+      0.15422137240217193
+    ],
+    [
+      "438",
+      0.14833449294132847
+    ],
+    [
+      "332",
+      0.12724458219216167
+    ],
+    [
+      "424",
+      0.12418411923017639
+    ],
+    [
+      "16",
+      0.12216859187664858
+    ],
+    [
+      "355",
+      0.11853191795387033
+    ]
+  ],
+  "pagerank_vs_betweenness_top20_overlap": 0.4,
+  "communities": {
+    "louvain": {
+      "n_communities": 45,
+      "modularity": 0.8839451427292584,
+      "largest": 59,
+      "seconds": 0.0337831974029541
+    },
+    "label_propagation": {
+      "n_communities": 148,
+      "modularity": 0.7652800655002778,
+      "largest": 38,
+      "seconds": 0.012988090515136719
+    }
+  },
+  "triads": {
+    "connected_triples": 22215,
+    "closed_triangles": 4312,
+    "open_triads": 9279
+  },
+  "robustness_10pct_removal": {
+    "baseline_giant_share": 0.9095295536791315,
+    "removed_nodes": 82,
+    "after_removing_top_pagerank": 0.05066344993968637,
+    "after_removing_top_betweenness": 0.061519903498190594,
+    "after_removing_top_degree": 0.061519903498190594,
+    "after_removing_random_mean": 0.7051266586248491
+  },
+  "pagerank_stability_10pct_missing_edges": {
+    "top_k": 20,
+    "edges_dropped": 0.1,
+    "mean_overlap": 0.9049999999999999,
+    "min_overlap": 0.85
+  }
+}

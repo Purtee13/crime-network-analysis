@@ -1,0 +1,109 @@
+{
+  "graph": {
+    "nodes": 829,
+    "edges": 2253
+  },
+  "seeds": 5,
+  "models": {
+    "Adamic-Adar (heuristic baseline)": {
+      "roc_auc": {
+        "mean": 0.9340202469135802,
+        "std": 0.008695964463912494,
+        "n_runs": 5
+      },
+      "avg_precision": {
+        "mean": 0.9348099200516632,
+        "std": 0.008659200683172339,
+        "n_runs": 5
+      },
+      "precision_at_100": {
+        "mean": 1.0,
+        "std": 0.0,
+        "n_runs": 5
+      },
+      "roc_auc_hard": {
+        "mean": 0.5,
+        "std": 0.0,
+        "n_runs": 5
+      }
+    },
+    "Logistic Regression": {
+      "roc_auc": {
+        "mean": 0.9812148148148149,
+        "std": 0.003784451782411855,
+        "n_runs": 5
+      },
+      "avg_precision": {
+        "mean": 0.983397400982837,
+        "std": 0.00353610541623311,
+        "n_runs": 5
+      },
+      "precision_at_100": {
+        "mean": 1.0,
+        "std": 0.0,
+        "n_runs": 5
+      },
+      "roc_auc_hard": {
+        "mean": 0.871280136212768,
+        "std": 0.020765845860267418,
+        "n_runs": 5
+      }
+    },
+    "Random Forest": {
+      "roc_auc": {
+        "mean": 0.9705046913580248,
+        "std": 0.006275889389069713,
+        "n_runs": 5
+      },
+      "avg_precision": {
+        "mean": 0.9746629461087617,
+        "std": 0.004795165337146635,
+        "n_runs": 5
+      },
+      "precision_at_100": {
+        "mean": 1.0,
+        "std": 0.0,
+        "n_runs": 5
+      },
+      "roc_auc_hard": {
+        "mean": 0.7966086269858842,
+        "std": 0.03970359304732559,
+        "n_runs": 5
+      }
+    },
+    "Gradient Boosting": {
+      "roc_auc": {
+        "mean": 0.9749817283950618,
+        "std": 0.004446166360539646,
+        "n_runs": 5
+      },
+      "avg_precision": {
+        "mean": 0.978691585223714,
+        "std": 0.003324714969262691,
+        "n_runs": 5
+      },
+      "precision_at_100": {
+        "mean": 0.998,
+        "std": 0.0040000000000000036,
+        "n_runs": 5
+      },
+      "roc_auc_hard": {
+        "mean": 0.8291555530100746,
+        "std": 0.033224370920279515,
+        "n_runs": 5
+      }
+    }
+  },
+  "random_forest_feature_importance": {
+    "common_nbrs": 0.13749368573381668,
+    "jaccard": 0.15963216873763586,
+    "adamic_adar": 0.1814503223792723,
+    "resource_alloc": 0.1835140349446902,
+    "pref_attach": 0.11943280933077945,
+    "same_community": 0.11769402461512643,
+    "core_min": 0.049058396316665594,
+    "core_max": 0.05172455794201351
+  },
+  "avg_hard_pairs_per_run": 502.4,
+  "test_pairs_per_run": 900
+}
